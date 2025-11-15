@@ -2,7 +2,8 @@
 az vm quick setup VMS for demo
 # quick start
 ```
-curl -fsSL https://az.msfts.org/setup.txt | bash -s create
-curl -fsSL https://az.msfts.org/setup.txt | bash -s create
-curl -fsSL https://az.msfts.org/setup.txt | bash -s --help
+curl -fsSL https://az.msfts.org/setup.sh > setup.sh
+chmod +x setup.sh
+./setup.sh --help
+
 ```
